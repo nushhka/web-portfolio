@@ -1,0 +1,19 @@
+@import url(./fonts.css);
+
+.header_area .menu_bar .navbar .container-fluid .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .menu_bar .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .menu_bar .nav-item .nav-link{
+    /* font-family: "Roboto-Light"; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem ;
+    /* color: gray; */
+}
+
+
