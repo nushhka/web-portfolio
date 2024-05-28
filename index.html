@@ -10,20 +10,21 @@
 </head>
 
 <body>
+
     <!-- ========== Start Header area============= -->
     <header class="header_area">
         <div class="menu_bar">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Anushka</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Anushka</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">About</a>
@@ -43,10 +44,161 @@
                 </nav>
           </div>
       </header>
-
     <!-- ========== End Header area =============== -->
+
+    <!-- ========== Start Main area =============== -->
+    <main class="site-main">
+        <!--  ======================= Start Home Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3>Hey</h3>
+                        <h1 class="text-uppercase">I am Anushka</h1>
+                        <h4 class="text-uppercase">Pre Final Year Undergrad at IIT Jodhpur</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button onclick="window.location.href = 'mailto:b22cs097@iitj.ac.in';" role="link" class="btn button primary-button mr-4 text-uppercase">hire
+                                    me</button>
+                                <button onclick="window.location.href = 'https://drive.google.com/file/d/1fxAQKk7f-lMLCnlDkrS8Kb8W6QnJGZ_6/view?usp=sharing';" role="link" class="btn button secondary-button text-uppercase ">Get cv</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./images/banner.jpg" height="100" width="700" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Home Area =======================  -->
+
+        <!--  ======================= Start About Area =======================  -->
+
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-11">
+                        <div class="about-image">
+                            <img src="./images/aboutt.png" alt="About us" class="img-fluid" style="max-width: 100% auto">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                Dynamic and ambitious, I am Anushka Dadhich, 
+                                currently pursuing my B.Tech in Computer Science and Engineering 
+                                at the esteemed Indian Institute of Technology, Jodhpur. 
+                                I am fueled by a passion for innovation and a drive to make 
+                                a tangible difference in the world of technology. 
+                                My academic journey, characterized by a stellar CGPA of 8.76, 
+                                is complemented by hands-on experience in diverse domains, including data structures and algorithms, 
+                                machine learning, and software engineering.                                 
+                            </p>
+                            <p class="para">
+                                Beyond the confines of the classroom, I have assumed leadership positions, 
+                                serving as the Marketing Head for Prometeo’24, the college's technical and entrepreneurial fest, 
+                                and leading initiatives within the Entrepreneurship Cell and the video editing and filmmaking club. 
+                                My achievements, such as securing the 7th rank in the Inter IIT Tech Meet 12.0 and 
+                                receiving accolades in prestigious competitions, underscore my ability to excel under pressure and deliver results. 
+                                As I embark on new challenges and projects, I am poised to leverage my skills, creativity, 
+                                and relentless determination to drive innovation and 
+                                create impactful solutions in the ever-evolving landscape of technology.
+                            </p>
+                        </div>
+                        <button type="button" onclick="window.location.href = 'https://drive.google.com/file/d/1fxAQKk7f-lMLCnlDkrS8Kb8W6QnJGZ_6/view?usp=sharing';" role="link" class="btn button primary-button text-uppercase">Download cv</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End About Area =======================  -->
+
+
+        <!-- ======================= Start Projects Area ======================= -->
+<section class="projects-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-uppercase text-center">My Projects</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project1.png" alt="Project 1" class="img-fluid">
+                    <h3>AR_Furniture</h3>
+                    <p>An AR furniture app for visualising the furniture and interior decor items in real time at your space.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/nushhka/AR_Furniture';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project22.png" alt="Project 2" class="img-fluid">
+                    <h3>FestBot</h3>
+                    <p>A smart bot tailored for college festivals that is equipped with AI-driven FAQ responses.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/nushhka/FestBot';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project3.webp" alt="Project 3" class="img-fluid">
+                    <h3>Movie Recommender System</h3>
+                    <p>This recommender provides personalized movie recommendations based on different sets of features.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/nushhka/Movie-Recommender-System';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project4.png" alt="Project 4" class="img-fluid">
+                    <h3>PathOptimizer</h3>
+                    <p>Optimization of Dijkstra's Algorithm based on various parameters like distance, road conditions, weather conditions etc.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/nushhka/dijkstra_ahp';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project5.jpg" alt="Project 5" class="img-fluid">
+                    <h3>Project Title 5</h3>
+                    <p>Project description goes here. Briefly describe the project.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/yourusername/project5';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project-item">
+                <div class="project">
+                    <img src="./images/project6.jpg" alt="Project 6" class="img-fluid">
+                    <h3>Project Title 6</h3>
+                    <p>Project description goes here. Briefly describe the project.</p>
+                    <button type="button" onclick="window.location.href = 'https://github.com/yourusername/project6';" role="link" class="btn button secondary-button">GitHub Link</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================= End Projects Area ======================= -->
+
+<section class="contact-section">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me!</p>
+        <div class="contact-links">
+            <a href="mailto:b22cs097@iitj.ac.in"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/nushhka"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anushka-dadhich"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_.nushkkaaa._/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- ========== End Main area =============== -->
 
     <script src ="./js/jquery.3.7.1.js" > </script>
     <script src ="./js/bootstrap.min.js"> </script>
+    <script src ="./js/main.js"> </script>
 </body>
 </html>
